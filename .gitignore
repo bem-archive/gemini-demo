@@ -1,0 +1,6 @@
+.enb/tmp/
+bower_components/
+node_modules/
+
+pages/index/*
+!pages/index/index.bemjson.js

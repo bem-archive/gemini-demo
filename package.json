@@ -1,0 +1,22 @@
+{
+  "name": "shooter-demo",
+  "version": "0.1.0",
+  "description": "Demo for shooter",
+  "devDependencies": {
+    "bower": "^1.3.3",
+    "enb": "^0.10.0",
+    "enb-bemxjst": "^1.1.1",
+    "gemini": "^0.3.0"
+  },
+  "dependencies": {
+    "enb-diverse-js": "^0.1.0",
+    "enb-modules": "^0.1.2",
+    "enb-roole": "^0.2.0",
+    "roole": "^0.9.0",
+    "ym": "^0.1.0"
+  },
+  "scripts": {
+    "deps": "npm i && bower i",
+    "server": "enb server -p 8000"
+  }
+}
