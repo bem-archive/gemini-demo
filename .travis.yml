@@ -5,8 +5,8 @@ node_js:
 
 env:
   global:
-    secure: "oW2wxELTij/SZo+FV5jWcG3VsEqT1/LvKBbbLu9Flze8OzOpH1xDkR/hBJn+sMsGqDHrrxao1njr6yGosMTunss0OTUvDIWvhepH81ZHseaDtJigI95YOpFIZanHtc0zq7XdM5ZhiztmcQNQcUuOYK8x5wM7CBW+dumrEahkfbU="
-    secure: "rfQksY2zvIDbaz+ZPUtVLhpq8iJk+9HHyhlz37gJjnCboFwQi2rrZIXkoatl3XqFRu5f8uBsBgh8WV3j116YzhKbXsGLwdLIKogGQgI7jR3jaDiXhG/eh5wwWqvUixrCK9A3xs2W3tXTa/7vpgxrxruMx37+GdTuDE4bQaajTG8="
+    - secure: "oW2wxELTij/SZo+FV5jWcG3VsEqT1/LvKBbbLu9Flze8OzOpH1xDkR/hBJn+sMsGqDHrrxao1njr6yGosMTunss0OTUvDIWvhepH81ZHseaDtJigI95YOpFIZanHtc0zq7XdM5ZhiztmcQNQcUuOYK8x5wM7CBW+dumrEahkfbU="
+    - secure: "rfQksY2zvIDbaz+ZPUtVLhpq8iJk+9HHyhlz37gJjnCboFwQi2rrZIXkoatl3XqFRu5f8uBsBgh8WV3j116YzhKbXsGLwdLIKogGQgI7jR3jaDiXhG/eh5wwWqvUixrCK9A3xs2W3tXTa/7vpgxrxruMx37+GdTuDE4bQaajTG8="
 
 addons:
   sauce: true
