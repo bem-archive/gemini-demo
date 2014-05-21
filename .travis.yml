@@ -9,7 +9,7 @@ env:
     - secure: "rfQksY2zvIDbaz+ZPUtVLhpq8iJk+9HHyhlz37gJjnCboFwQi2rrZIXkoatl3XqFRu5f8uBsBgh8WV3j116YzhKbXsGLwdLIKogGQgI7jR3jaDiXhG/eh5wwWqvUixrCK9A3xs2W3tXTa/7vpgxrxruMx37+GdTuDE4bQaajTG8="
 
 addons:
-  sauce: true
+  sauce_connect: true
 
 before_script:
   - npm run deps && npm run build
