@@ -3,4 +3,4 @@ gridUrl: http://localhost:4444/wd/hub
 browsers:
   - firefox
   - opera
-  - chrome
+  - phantomjs
