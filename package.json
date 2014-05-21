@@ -21,6 +21,6 @@
     "server": "enb server -p 8000 -h localhost",
     "selenium": "selenium-server",
     "demo": "npm run server & p=$!; npm run selenium; kill -9 $p",
-    "test": "gemini test"
+    "test": "gemini test --reporter html --reporter tree"
   }
 }
