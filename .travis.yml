@@ -1,0 +1,20 @@
+language: node_js
+
+node_js:
+  - "0.10"
+
+env:
+  global:
+    SAUCE_USERNAME:
+      secure: "bKiJIzRvE63q/tpzrdEMGbLOQU3lyauBKe92qOFpObSg+IAzOrbGf0EKTs1Dywvtwh7eNO07oLF8EmqGyLs7PkkEK5FubYK7XofkHKZJoWMyCEjfoi9IMCacNLM7JEKAJlnD9dVRj/6MWh50WOaDtsuLaL8F7oFhYqGovPGqH+8="
+    SAUCE_ACCESS_KEY:
+      secure: "huYJ/qoaST/t9wQjxcAPrvyiyXtmznULoEPl33ipL329dYY06nH94GyK1ZBBIEe6GcK6QSu9BvtljGxfXc2KvCKsXKadVWKohv4r2yIOv5j74vJB703lPUpwOTizDLJlfHRvbdC3kU/9XJ/MQWoRiUogFWheyQxRahx2A1JxCLQ="
+
+addons:
+  sauce: true
+
+before_script:
+  - sudo apt-get update -qq
+  - sudo apt-get install -qq -y graphicsmagick
+  - npm install http-server
+  - node_modules/.bin/http-server s —p 8000 &
