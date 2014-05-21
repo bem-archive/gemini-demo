@@ -2,6 +2,8 @@
 
 This is a Gemini Demo project.
 
+[![Genimi Test Status](https://saucelabs.com/browser-matrix/gemini-demo.svg)](https://saucelabs.com/u/gemini-demo)
+
 ## Local setup and tests running
 
 1. Create SauceLabs account if you don't have one.
