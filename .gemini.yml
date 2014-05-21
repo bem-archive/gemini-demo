@@ -5,3 +5,8 @@ browsers:
   - {name: opera, version: 12}
   - {name: firefox, version: 29}
   - {name: internet explorer, version: 9}
+capabilities:
+  record-screenshots: false
+  record-video: false
+  command-timeout: 5
+  idle-timeout: 15

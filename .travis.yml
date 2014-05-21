@@ -18,6 +18,5 @@ before_script:
   - npm install http-server
   - node_modules/.bin/http-server -s -p 8000 &
   - |
-      echo "capabilities:" >> .gemini.yml
       echo "  tunnel-identifier: '${TRAVIS_JOB_NUMBER}'" >> .gemini.yml
       cat .gemini.yml
