@@ -5,10 +5,8 @@ node_js:
 
 env:
   global:
-    SAUCE_USERNAME:
-      secure: "bKiJIzRvE63q/tpzrdEMGbLOQU3lyauBKe92qOFpObSg+IAzOrbGf0EKTs1Dywvtwh7eNO07oLF8EmqGyLs7PkkEK5FubYK7XofkHKZJoWMyCEjfoi9IMCacNLM7JEKAJlnD9dVRj/6MWh50WOaDtsuLaL8F7oFhYqGovPGqH+8="
-    SAUCE_ACCESS_KEY:
-      secure: "huYJ/qoaST/t9wQjxcAPrvyiyXtmznULoEPl33ipL329dYY06nH94GyK1ZBBIEe6GcK6QSu9BvtljGxfXc2KvCKsXKadVWKohv4r2yIOv5j74vJB703lPUpwOTizDLJlfHRvbdC3kU/9XJ/MQWoRiUogFWheyQxRahx2A1JxCLQ="
+    secure: "oW2wxELTij/SZo+FV5jWcG3VsEqT1/LvKBbbLu9Flze8OzOpH1xDkR/hBJn+sMsGqDHrrxao1njr6yGosMTunss0OTUvDIWvhepH81ZHseaDtJigI95YOpFIZanHtc0zq7XdM5ZhiztmcQNQcUuOYK8x5wM7CBW+dumrEahkfbU="
+    secure: "rfQksY2zvIDbaz+ZPUtVLhpq8iJk+9HHyhlz37gJjnCboFwQi2rrZIXkoatl3XqFRu5f8uBsBgh8WV3j116YzhKbXsGLwdLIKogGQgI7jR3jaDiXhG/eh5wwWqvUixrCK9A3xs2W3tXTa/7vpgxrxruMx37+GdTuDE4bQaajTG8="
 
 addons:
   sauce: true
