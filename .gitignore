@@ -1,6 +1,7 @@
 .enb/tmp/
 bower_components/
 node_modules/
+gemini-report/
 
 pages/index/*
 !pages/index/index.bemjson.js
