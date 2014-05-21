@@ -1,6 +1,7 @@
 rootUrl: http://localhost:8000
-gridUrl: http://localhost:4444/wd/hub
+gridUrl: http://ondemand.saucelabs.com/wd/hub
 browsers:
-  - firefox
-  - opera
-  - phantomjs
+  - {name: chrome, version: 33}
+  - {name: opera, version: 12}
+  - {name: firefox, version: 29}
+  - {name: internet explorer, version: 9}
