@@ -20,3 +20,4 @@ before_script:
   - |
       echo "capabilities:" >> .gemini.yml
       echo "  tunnel-identifier: '${TRAVIS_JOB_NUMBER}'" >> .gemini.yml
+      cat .gemini.yml
