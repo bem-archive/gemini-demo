@@ -44,6 +44,7 @@ module.exports = function(config) {
                 'bower_components/bem-components/desktop.blocks',
                 'bower_components/bem-components/design/common.blocks',
                 'bower_components/bem-components/design/desktop.blocks',
+                'common.blocks'
             ].map(function(l) { 
                 return config.resolvePath(l); 
             });
