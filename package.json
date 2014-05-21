@@ -17,6 +17,8 @@
   },
   "scripts": {
     "deps": "npm i && bower i",
-    "server": "enb server -p 8000"
+    "server": "enb server -p 8000 -h localhost",
+    "selenium": "selenium-server",
+    "demo": "npm run server & p=$!; npm run selenium; kill -9 $p"
   }
 }
