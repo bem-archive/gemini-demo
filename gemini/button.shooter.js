@@ -1,6 +1,6 @@
 var gemini = require('gemini');
 gemini.suite('button', function(suite) {
-    suite.setUrl('pages/index/index.html')
+    suite.setUrl('/pages/index/index.html')
         .setCaptureElements('.button')
         .before(function(actions, find) {
             this.button = find('.button');
