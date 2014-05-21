@@ -12,6 +12,7 @@ addons:
   sauce: true
 
 before_script:
+  - npm run deps && npm run build
   - sudo apt-get update -qq
   - sudo apt-get install -qq -y graphicsmagick
   - npm install http-server
