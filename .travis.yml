@@ -17,4 +17,4 @@ before_script:
   - sudo apt-get update -qq
   - sudo apt-get install -qq -y graphicsmagick
   - npm install http-server
-  - node_modules/.bin/http-server s —p 8000 &
+  - node_modules/.bin/http-server s -p 8000 &
